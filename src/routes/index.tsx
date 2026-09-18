@@ -3,10 +3,10 @@ import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNod
 import doctorHero from "@/assets/quiz/doctor-hero-fast.webp";
 import genderMale from "@/assets/quiz/gender-male-custom.jpg";
 import genderFemale from "@/assets/quiz/gender-female-fast.webp";
-import age1829Asset from "@/assets/quiz/age-18-29-sa.webp.asset.json";
-import age3039Asset from "@/assets/quiz/age-30-39-sa.webp.asset.json";
-import age4049Asset from "@/assets/quiz/age-40-49-sa.webp.asset.json";
-import age50Asset from "@/assets/quiz/age-50-plus-sa.webp.asset.json";
+import age1829 from "@/assets/quiz/age-18-29-fast.webp";
+import age3039 from "@/assets/quiz/age-30-39-fast.webp";
+import age4049 from "@/assets/quiz/age-40-49.webp";
+import age50 from "@/assets/quiz/age-50.webp";
 import scale20 from "@/assets/quiz/scale-20kg-fast.webp";
 import scaleUnknown from "@/assets/quiz/scale-unknown-fast.webp";
 
@@ -18,17 +18,10 @@ import antesDespues from "@/assets/quiz/antes-despues-maria-fast.webp";
 import transformBefore from "@/assets/quiz/transform-before.png";
 import transformAfter from "@/assets/quiz/transform-after.png";
 import dreamNatural from "@/assets/quiz/dream-natural.webp";
-import dreamFitAsset from "@/assets/quiz/fit-man-updated.webp.asset.json";
+import fatAreasMan from "@/assets/quiz/fat-areas-man-custom.png";
+import dreamFit from "@/assets/quiz/dream-fit-woman.png";
 import antesDespuesGabriela from "@/assets/quiz/antes-despues-gabriela-fast.webp";
-import southAfricaAudioAsset from "@/assets/quiz/voice-south-africa.mp3.asset.json";
-
-const age1829 = age1829Asset.url;
-const age3039 = age3039Asset.url;
-const age4049 = age4049Asset.url;
-const age50 = age50Asset.url;
-const fatAreasMan = dreamFitAsset.url;
-const southAfricaAudio = southAfricaAudioAsset.url;
-const dreamFit = dreamFitAsset.url;
+import southAfricaAudio from "@/assets/quiz/dr-renato.mp3";
 
 // All image URLs - used for eager preloading so steps never flash white
 const ALL_IMAGES = [
