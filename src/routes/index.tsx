@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import doctorHero from "@/assets/quiz/doctor-hero-fast.webp";
-import genderMale from "@/assets/quiz/gender-male-fast.webp";
+import genderMale from "@/assets/quiz/gender-male-custom.jpg";
 import genderFemale from "@/assets/quiz/gender-female-fast.webp";
 import age1829Asset from "@/assets/quiz/age-18-29-sa.webp.asset.json";
 import age3039Asset from "@/assets/quiz/age-30-39-sa.webp.asset.json";
