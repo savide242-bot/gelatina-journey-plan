@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import doctorHero from "@/assets/quiz/doctor-hero-fast.webp";
-import genderMale from "@/assets/quiz/gender-male-custom.jpg";
+import genderMale from "@/assets/quiz/gender-male-custom.png";
 import genderFemale from "@/assets/quiz/gender-female-fast.webp";
-import age1829 from "@/assets/quiz/age-18-29-fast.webp";
-import age3039 from "@/assets/quiz/age-30-39-fast.webp";
-import age4049 from "@/assets/quiz/age-40-49.webp";
-import age50 from "@/assets/quiz/age-50.webp";
+import age1829 from "@/assets/quiz/age-18-29-custom.jpg";
+import age3039 from "@/assets/quiz/age-30-39-custom.jpg";
+import age4049 from "@/assets/quiz/age-40-49-custom.jpg";
+import age50 from "@/assets/quiz/age-50-custom.jpg";
 import scale20 from "@/assets/quiz/scale-20kg-fast.webp";
 import scaleUnknown from "@/assets/quiz/scale-unknown-fast.webp";
 
